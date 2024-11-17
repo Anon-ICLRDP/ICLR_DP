@@ -17,7 +17,7 @@ torchvision==0.18.1
 numpy==1.22.0
 pandas=1.3.5
 
-# Data Pruning - CelebA (Built on top of code provided by Liu et. al. - https://github.com/anniesch/jtt/tree/master)
+# CelebA (Built on top of code provided by Liu et. al. - https://github.com/anniesch/jtt/tree/master)
 
 Unzip CelebA zip file and move img_align_celeba to celebA/data. Move metadata.csv and list_eval_partition.csv to celebA/data as other3.csv and other2.csv respectively.
 
@@ -78,7 +78,7 @@ python3 get_all_testing_valtuned.py
 ```
 
 
-# Data Pruning - Waterbirds (Built on top of code provided by Kirichenko et. al. - https://github.com/PolinaKirichenko/deep_feature_reweighting)
+# Waterbirds (Built on top of code provided by Kirichenko et. al. - https://github.com/PolinaKirichenko/deep_feature_reweighting)
 
 Unpack the Waterbirds tarball dataset
 
@@ -115,7 +115,7 @@ python3 test.py
 ```
 
 
-# Data Pruning - MultiNLI (Built on top of code provided by Sagawa et. al. - https://github.com/kohpangwei/group_DRO)
+# MultiNLI (Built on top of code provided by Sagawa et. al. - https://github.com/kohpangwei/group_DRO)
 
 For information regarding data formatting, please follow - https://github.com/kohpangwei/group_DRO
 
@@ -150,7 +150,7 @@ python3 test_all.py
 ```
 
 
-# Data Pruning - HardImageNet 
+# HardImageNet 
 
 1) Create dataset and train classifier (Note: you can stop running the script before the 2nd epoch.)
 

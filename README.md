@@ -13,8 +13,11 @@ For tasks that require the HardImageNet dataset, download and unzip the dataset 
 # Requirements:
 
 torch==2.3.1
+
 torchvision==0.18.1
+
 numpy==1.22.0
+
 pandas=1.3.5
 
 # CelebA (Built on top of code provided by Liu et. al. - https://github.com/anniesch/jtt/tree/master)

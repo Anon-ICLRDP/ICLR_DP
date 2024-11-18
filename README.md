@@ -1,6 +1,6 @@
 # Instructions:
 
-# Datasets
+## Datasets
 
 For tasks that require the CelebA dataset, download and unzip the dataset from https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html in the directory in which the experiment is to be run (FileName: img_align_celeba.zip). Additionally, attain list_eval_partition.csv and metadata.csv.
 
@@ -10,7 +10,7 @@ For tasks that require the MultiNLI dataset, please see - https://github.com/koh
 
 For tasks that require the HardImageNet dataset, download and unzip the dataset from https://mmoayeri.github.io/HardImageNet/. Move the folders hardImageNet and HardImageNet_Images to the relevant directory.
 
-# Requirements:
+## Requirements:
 
 torch==2.3.1
 
@@ -20,7 +20,7 @@ numpy==1.22.0
 
 pandas=1.3.5
 
-# CelebA (Built on top of code provided by Liu et. al. - https://github.com/anniesch/jtt/tree/master)
+## CelebA (Built on top of code provided by Liu et. al. - https://github.com/anniesch/jtt/tree/master)
 
 Unzip CelebA zip file and move img_align_celeba to celebA/data. Move metadata.csv and list_eval_partition.csv to celebA/data as other3.csv and other2.csv respectively.
 
@@ -81,7 +81,7 @@ python3 get_all_testing_valtuned.py
 ```
 
 
-# Waterbirds (Built on top of code provided by Kirichenko et. al. - https://github.com/PolinaKirichenko/deep_feature_reweighting)
+## Waterbirds (Built on top of code provided by Kirichenko et. al. - https://github.com/PolinaKirichenko/deep_feature_reweighting)
 
 Unpack the Waterbirds tarball dataset
 
@@ -118,7 +118,7 @@ python3 test.py
 ```
 
 
-# MultiNLI (Built on top of code provided by Sagawa et. al. - https://github.com/kohpangwei/group_DRO)
+## MultiNLI (Built on top of code provided by Sagawa et. al. - https://github.com/kohpangwei/group_DRO)
 
 For information regarding data formatting, please follow - https://github.com/kohpangwei/group_DRO
 
@@ -153,7 +153,7 @@ python3 test_all.py
 ```
 
 
-# HardImageNet 
+## HardImageNet 
 
 1) Create dataset and train classifier (Note: you can stop running the script before the 2nd epoch.)
 
